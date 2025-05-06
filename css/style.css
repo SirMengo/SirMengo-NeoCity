@@ -1,0 +1,13 @@
+body {
+  background-color: #c9e7c9;
+  color: black;
+  font-family: Verdana;
+}
+
+.hi {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 15%;
+  height: auto
+}
