@@ -1,13 +1,59 @@
+@font-face {
+  font-family: DayDream;
+  src: url(fonts/Daydream.otf);
+}
+
+div {
+  font-family: DayDream;
+}
+
 body {
   background-color: #c9e7c9;
   color: black;
-  font-family: Verdana;
+  font-family: 'fonts/Daydream.otf';
+}
+
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8px;
+  width: 50%;
+  background-color: #0E3B43;
+  height: 350px;
+}
+
+.navbarsep {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20px;
+  width: 50%;
+  background-color: #c9e7c9
+}
+
+.navbar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75px;
+  background-color: #357266;
+  width: 50%;
+}
+
+.contents {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+  background-color: whitesmoke;
+  width: 50%;
 }
 
 .hi {
-  position: absolute;
+  position: sticky;
   bottom: 0px;
-  right: 0px;
-  width: 15%;
-  height: auto
+  left: 70%;
+  width: 14%;
+  height: auto;
 }
